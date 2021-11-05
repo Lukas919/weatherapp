@@ -1,13 +1,15 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <el-button type="primary" icon="el-icon-edit"></el-button>
 
+   
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Weather',
   props: {
     msg: String
   }
