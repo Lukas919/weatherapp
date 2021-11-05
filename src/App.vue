@@ -5,11 +5,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/Weather.vue'
+import Weather from './components/Weather.vue'
 
 export default {
   name: 'App',
   components: {
+    // eslint-disable-next-line vue/no-unused-components
     Weather
   }
 }
